@@ -1,6 +1,6 @@
 // Write a program to find the Smallest digit in a number n
 
-import java.util.Scanner;
+import java.util.*;
 
 public class SmallestDigit {
 
@@ -8,7 +8,7 @@ public class SmallestDigit {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
+        System.out.print("Enter number: ");
         int n = sc.nextInt();
 
         n = Math.abs(n);
