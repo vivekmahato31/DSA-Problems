@@ -1,6 +1,6 @@
 // Write a program to find the largest digit in a number n
 
-import java.util.Scanner;
+import java.util.*;
 
 public class LargestDigit {
 
@@ -13,11 +13,11 @@ public class LargestDigit {
         int largest = 0;
 
         if (n == 0) {
-            largest = 0;
-        } 
+            System.out.println(0);
+        }
         else {
             while (n > 0) {
-                
+
                 int digit = n % 10;
 
                 if (digit > largest) {
@@ -28,7 +28,7 @@ public class LargestDigit {
             }
         }
 
-        System.out.println("Largest digit = " + largest);
+        System.out.print("Largest digit = " + largest);
 
         sc.close();
     }
