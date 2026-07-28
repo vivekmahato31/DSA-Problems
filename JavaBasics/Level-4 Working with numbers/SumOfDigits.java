@@ -5,18 +5,18 @@ import java.util.*;
 public class SumOfDigits {
     public static void main (String [] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter n: ");
+        System.out.print("Enter n: ");
         int n =sc.nextInt();
         int original = n;
         n = Math.abs(n);
         int sum = 0 ;
 
         if ( n == 0){
-            System.out.println("The sum of all digits of a number "+ original + " is: ");
+            System.out.print("The sum of all digits of a number "+ original + " is: ");
             System.out.println("0");
         }
         else {
-                System.out.println("The sum of all digits of a number "+ original + " is: ");
+                System.out.print("The sum of all digits of a number "+ original + " is: ");
             while ( n > 0){
                 int digit = n % 10;
                 n = n/10;
