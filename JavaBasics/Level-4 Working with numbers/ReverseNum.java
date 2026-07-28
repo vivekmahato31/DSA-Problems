@@ -16,7 +16,7 @@ public class ReverseNum {
             System.out.println("The digits of a number are : ");
             while ( n > 0){
                 digit = n % 10;
-                System.out.println(digit);
+                System.out.print(digit);
                 n = n/10;
             } 
         }  
