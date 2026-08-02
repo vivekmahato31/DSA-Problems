@@ -7,8 +7,8 @@ public class PalindromeNumber {
 
         System.out.print("Enter Number: ");
         int n = sc.nextInt();
-        n = Math.abs(n);
 
+        n = Math.abs(n);
         int original = n;
         int reverse = 0;
 
