@@ -17,8 +17,8 @@ public class SumOfFirstLastDigit {
             n = n/10;
         }
         int FirstDigit = n;
-
         int sum = FirstDigit + LastDigit;
+
         System.out.print("The Sum Of First and Last Digit is " + sum);
 
         sc.close();
