@@ -1,5 +1,6 @@
 //Create a method isEven(int number) that returns true if the given number is even, otherwise returns false.
 
+import java.util.*;
 public class isEvenOdd {
 
     static boolean isEven(int a) {
@@ -11,6 +12,8 @@ public class isEvenOdd {
     }
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
         boolean result = isEven(10);
         System.out.print(result);
     }
