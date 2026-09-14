@@ -13,7 +13,10 @@ public class isEvenOdd {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Your Number: ");
         int a = sc.nextInt();
+
         boolean result = isEven(10);
         System.out.print(result);
     }
